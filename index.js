@@ -3,10 +3,10 @@ const navBar = document.querySelector("nav");
 const navLinks = document.querySelector("nav ul");
 
 function openMenu(){
-    sideMenu.style.transform = 'translateX(-16rem)';
+    sideMenu.style.transform = 'translateX(-12rem)';
 }
 function closeMenu(){
-    sideMenu.style.transform = 'translateX(16rem)';
+    sideMenu.style.transform = 'translateX(12rem)';
 }
 
 window.addEventListener('scroll', ()=>{

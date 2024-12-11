@@ -68,8 +68,8 @@
 
         <!-- Mobile Menu -->
 
-        <ul id="sideMenu" class="flex md:hidden flex-col py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 gap-4 dark:bg-[#2a004a] dark:text-white">
-            <div class="absolute right-6 top-6">
+        <ul id="sideMenu" class="flex md:hidden flex-col py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-700 gap-4 dark:bg-[#2a004a] dark:text-white">
+            <div class="absolute close-icon">
                 <img src="images/close-black.png" class="w-5 cursor-pointer dark:hidden" onclick="closeMenu()" alt="">
                 <img src="images/close-white.png" class="w-5 cursor-pointer hidden dark:block" onclick="closeMenu()" alt="">
             </div>
@@ -81,7 +81,7 @@
         </ul>
     </nav>
 <!-- header menu -->
-    <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <div class="w-11/12 max-w-3xl text-center mx-auto h-screen pt-20 lg:pt-0 flex flex-col items-center justify-center gap-4">
         <img src="images/profile-img.png" alt="" class="w-32 h-[123px] rounded-full">
         <h3 class="flex items-center gap-2 text-xl md:text-2xl mb-3 ovo">Hi! I'm Nobodip Debnath <img src="images/hand-icon.png" class="w-6" alt=""></h3>
         <h1 class="text-3xl md:text-6xl lg:text-[66px]">frontend web developer based in Thakurgaon</h1>
@@ -94,7 +94,7 @@
     </div>
 <!-- about me -->
 
-<div id="about" class="w-full px-[5%] py-19 scroll-mt-20">
+<div id="about" class="w-full px-[12%] py-19 scroll-mt-20">
     <h4 class="text-center mb-2 text-lg ">Introduction</h4>
     <h2 class="text-center text-5xl">About me</h2>
     <div class="container mx-auto flex w-full flex-col lg:flex-row items-center gap-20 my-20">
@@ -106,9 +106,9 @@
             </div>
         </div>
 
-        <div class="flex-1">
-            <p class="mb-10 max-w-2xl ">I am an experienced Frontend Developer with over a decade of professional expertise in the field.Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth</p>
-            <ul class="grid grid-cols-auto gap-6 max-w-2xl">
+        <div class="flex-1 px-[10%] md:px-[5%] lg:px-[0%]">
+            <p class="mb-10 max-w-2xl text-center md:text-start">I am an experienced Frontend Developer with over a decade of professional expertise in the field.Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth</p>
+            <ul class="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-2xl">
                 <li class="border-[0.5px] border-gray-500 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50">
                     <img src="images/code-icon.png" alt="" class="w-7 mt-3 dark:hidden">
                     <img src="images/code-icon-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
@@ -274,7 +274,7 @@
             required name="email">
         </div>
         <textarea name="" rows="6" placeholder="Enter your message" class="w-full p-4 outline-none border-[0.5px] border-gray-400 bg-white mb-6 rounded-md dark:bg-darkHover/30 dark:border-white/90" id="" required name="message"></textarea>
-        <button class="py-3 px-8 w-max flex items-center justify-between bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 gap-2 dark:bg-transparent dark:border[0.5px] dark:bg-white dark:font-semibold glow-on-hover dark:text-black">Submit Now
+        <button class="py-3 px-8 w-max flex items-center justify-between bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 gap-2 dark:bg-transparent dark:border[0.5px] dark:bg-white dark:font-semibold glow-on-hover dark:text-black dark:border dark:hover:text-white">Submit Now
             <img src="images/right-arrow-white.png" class="w-4 dark:hidden" alt="">
             <img src="images/right-arrow-bold.png" class="w-4 hidden dark:block" alt="">
         </button>
@@ -295,9 +295,9 @@
     <div class="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
         <p>Nobodip Debnath</p>
         <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-            <li><a href="">Instagram</a></li>
-            <li><a href="">github</a></li>
-            <li><a href="">linkedin</a></li>
+            <li><a href="https://www.instagram.com/nobodip_d/">Instagram</a></li>
+            <li><a href="https://github.com/nobodipdebnath">github</a></li>
+            <li><a href="https://x.com/DebnathD46507">Twitter</a></li>
         </ul>
     </div>
 </div>

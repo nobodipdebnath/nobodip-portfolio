@@ -63,5 +63,12 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+.text-start{
+    text-align: start;
+}
+.close-icon{
+    top: 40px;
+    left: 130px;
+}
   
   
